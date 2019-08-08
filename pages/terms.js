@@ -1,5 +1,5 @@
-import About from '../components/About';
+import Terms from '../components/Terms';
 
-const AboutPage = props => <About />;
+const TermsPage = props => <Terms />;
 
-export default AboutPage;
+export default TermsPage;

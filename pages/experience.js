@@ -1,5 +1,5 @@
-import About from '../components/About';
+import Experience from '../components/Experience';
 
-const AboutPage = props => <About />;
+const ExperiencePage = props => <Experience />;
 
-export default AboutPage;
+export default ExperiencePage;
