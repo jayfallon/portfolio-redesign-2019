@@ -1,10 +1,10 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import Document, { Head, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
-export const title = "Next.js PWA Boilerplate";
+export const title = 'Jay Fallon - Digital Designer, Developer & Data Nerd';
 const description =
-  "Next.js PWA Boilerplate starts your progressive web app off with a perfect Google Lighthouse score.";
-const url = `https://next-pwa-boilerplate.now.sh`;
+  'A step-by-step of my project design and development process.';
+const url = `https://portfolio-redesign-2019.jayfallon.dev/`;
 const thumbnail = `${url}/static/graphics/thumbnail.png`;
 
 export default class MyDocument extends Document {
@@ -112,6 +112,8 @@ export default class MyDocument extends Document {
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
+          <link rel="stylesheet" href="https://use.typekit.net/dwo1agu.css" />
+          <script src="https://kit.fontawesome.com/6fe37eaa4f.js"></script>
         </Head>
         <body>
           <Main />
