@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 import Logo from '../Logo';
+import HeaderStyles from './styles';
 
 class Header extends Component {
   constructor(props) {
@@ -11,14 +12,14 @@ class Header extends Component {
   render() {
     const brandName = 'Jay Fallon';
     return (
-      <header>
+      <HeaderStyles>
         <section>
           <Logo url="/" title="Home Page">
             {brandName}
           </Logo>
-          <p>header</p>
+          <p>HeaderStyles</p>
         </section>
-      </header>
+      </HeaderStyles>
     );
   }
 }

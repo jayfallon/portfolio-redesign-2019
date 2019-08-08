@@ -53,7 +53,7 @@ table {
 }
 
 :root {
-    font-size: 65%;
+    font-size: 62.5%;
 }
 html {
   height: 100%; 
