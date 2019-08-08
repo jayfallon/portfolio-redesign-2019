@@ -21,6 +21,7 @@
   "homepage": "https://portfolio-redesign-2019.now.sh",
   "dependencies": {
     "jshint": "^2.10.2",
+    "moment": "^2.24.0",
     "next": "latest",
     "next-offline": "^4.0.2",
     "prop-types": "^15.7.2",
