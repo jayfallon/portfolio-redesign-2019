@@ -12,13 +12,51 @@ class Header extends Component {
   render() {
     const brandName = 'Jay Fallon';
     const brandTag = 'Digital Design & Development';
+    const headerNav = [
+      {
+        title: 'Home page link',
+        url: '/',
+        text: 'home',
+      },
+      {
+        title: 'resume page link',
+        url: '/about',
+        text: 'about',
+      },
+      {
+        title: 'Projects page link',
+        url: '/projects',
+        text: 'projects',
+      },
+      {
+        title: 'Experience page link',
+        url: '/experience',
+        text: 'experience',
+      },
+      {
+        title: 'Resume page link',
+        url: '/resume',
+        text: 'resume',
+      },
+    ];
     return (
       <HeaderStyles>
         <section>
           <Logo url="/" title="Home Page">
             {brandName}
           </Logo>
-          <h4></h4>
+          <nav>
+            <h4>{brandTag}</h4>
+            <ul className="header__nav--list">
+              {headerNav.map((elem, item) => (
+                <li key={item}>
+                  <Link href={elem.url}>
+                    <a title={elem.title}>{elem.text}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </section>
       </HeaderStyles>
     );
