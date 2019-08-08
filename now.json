@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "next-pwa-boilerplate",
-  "alias": ["next-pwa-boilerplate"],
+  "name": "portfolio-redesiign-2019",
+  "alias": ["portfolio-redesiign-2019"],
   "builds": [{ "src": "package.json", "use": "@now/next" }],
   "routes": [
     {
