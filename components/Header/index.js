@@ -11,13 +11,14 @@ class Header extends Component {
 
   render() {
     const brandName = 'Jay Fallon';
+    const brandTag = 'Digital Design & Development';
     return (
       <HeaderStyles>
         <section>
           <Logo url="/" title="Home Page">
             {brandName}
           </Logo>
-          <p>HeaderStyles</p>
+          <h4></h4>
         </section>
       </HeaderStyles>
     );
