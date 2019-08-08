@@ -1,5 +1,4 @@
-
-import PageTitle from "../components/PageTitle";
+import PageTitle from '../components/PageTitle';
 
 const Index = ({ posts }) => (
   <>
@@ -11,24 +10,25 @@ const Index = ({ posts }) => (
     </p>
     <ul>
       <li>Testing eslint</li>
+      <li>testing now deploy</li>
     </ul>
     <p>
-      Check out the{" "}
+      Check out the{' '}
       <a
         href="https://github.com/pingboard/next-pwa-boilerplate"
         rel="noopener noreferrer"
         target="_blank"
       >
         source code
-      </a>{" "}
-      and a more full{" "}
+      </a>{' '}
+      and a more full{' '}
       <a
         href="https://nextter.now.sh"
         rel="noopener noreferrer"
         target="_blank"
       >
         example
-      </a>{" "}
+      </a>{' '}
       for details.
     </p>
     <p>
