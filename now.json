@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "portfolio-redesiign-2019",
-  "alias": ["portfolio-redesiign-2019"],
+  "name": "portfolio-redesign-2019",
+  "alias": ["portfolio-redesign-2019"],
   "builds": [{ "src": "package.json", "use": "@now/next" }],
   "routes": [
     {
