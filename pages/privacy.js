@@ -1,5 +1,5 @@
-import About from '../components/About';
+import Privacy from '../components/Privacy';
 
-const AboutPage = props => <About />;
+const PrivacyPage = props => <Privacy />;
 
-export default AboutPage;
+export default PrivacyPage;

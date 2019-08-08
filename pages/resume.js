@@ -1,5 +1,5 @@
-import About from '../components/About';
+import Resume from '../components/Resume';
 
-const AboutPage = props => <About />;
+const ResumePage = props => <Resume />;
 
-export default AboutPage;
+export default ResumePage;
