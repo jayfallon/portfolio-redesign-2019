@@ -68,8 +68,8 @@ const Footer = () => (
           <li>
             &copy;{now} - {myName}
           </li>
-          {footerSNav.map((elem, i) => (
-            <li>
+          {footerSNav.map((elem, j) => (
+            <li key={j}>
               <Link href={elem.url}>
                 <a title={elem.title}>{elem.text}</a>
               </Link>
